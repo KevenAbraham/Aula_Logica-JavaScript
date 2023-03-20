@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 8</title>
+</head>
+<body>
+    <center><h1>A média dos valores</h1></center>
+
+    <script>
+        let num1 = parseFloat(prompt("Escreva a primeira nota: "));
+        let num2 = parseFloat(prompt("Escreva a segunda nota: "));
+        let num3 = parseFloat(prompt("Escreva a terceira nota: "));
+        let num4 = parseFloat(prompt("Escreva a quarta nota: "));
+        let media = 0.0;
+
+        if (num1 > 0.0 && num1 < 10.0) {
+            media = media + num1;
+        } else {
+            alert("Os números precisam ser acima de 0 e menor que 10");
+        }
+
+        if (num2 > 0.0 && num2 < 10.0) {
+            media = media + num2;
+        } else {
+            alert("Os números precisam ser acima de 0 e menor que 10");
+        }
+
+        if (num3 > 0.0 && num3 < 10.0) {
+            media = media + num3;
+        } else {
+            alert("Os números precisam ser acima de 0 e menor que 10");
+        }
+
+        if (num4 > 0.0 && num4 < 10.0) {
+            media = media + num4;
+        } else {
+            alert("Os números precisam ser acima de 0 e menor que 10");
+        }
+        document.write("<center>A <b>média</b> das notas é: " + media / 4);
+    </script>
+</body>
+</html>
